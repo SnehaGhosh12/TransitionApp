@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="18dp"
+    app:cardBackgroundColor="@color/back_ground_service_color"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/text"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Hello From PathOr"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <ImageView
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:src="@drawable/baseline_close_24"
+            app:tint="@color/white"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:src="@drawable/hello"
+            android:layout_gravity="center_vertical"
+            app:layout_constraintTop_toBottomOf="@id/text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <!--        <RelativeLayout-->
+<!--            android:background="#D3404040"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="280dp"-->
+<!--            >-->
+<!--            <TextView-->
+<!--                android:id="@+id/text"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="180dp"-->
+<!--                android:text="HELLO PathOr"-->
+<!--                android:textSize="40sp"-->
+<!--                android:textAlignment="center"/>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btn"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_below="@id/text"-->
+<!--                android:layout_alignParentBottom="true"-->
+<!--                android:layout_margin="20dp"-->
+<!--                android:layout_marginBottom="30dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Dismiss"-->
+<!--                android:textSize="18sp" />-->
+<!--        </RelativeLayout>-->
+
+</androidx.cardview.widget.CardView>
