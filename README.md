@@ -9,12 +9,12 @@ TransitionApp is an app which greets the user on a button click.
  <img src="https://github.com/SnehaGhosh12/TransitionApp/assets/85940732/f95485ae-435d-4d05-8d1e-0cdeac6a7aea" width="300" />
 </p>
 
-#Useage
+# Useage
 -Open the App
 -To show the Transition to the overlay click on the "Click" button on the screen
 -To bring back app to the foreground press on the view of the overlay
 -Or to close the service or the overlay click on cross button on the overlay
 
-#Built with
+# Built with
 -Kotlin
 -Android Studio
